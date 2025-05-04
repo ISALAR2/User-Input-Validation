@@ -1,0 +1,28 @@
+<!-- Israel salazar Jr, 5/4/2025 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Validation Assignment</title> 
+    <script src="code.js"></script>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Validation</h1>
+
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName"><p id="fnameWarn" class="warning"></p>
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName"><p id="lnameWarn" class="warning"></p>
+
+    <label for="zip">Zip Code:</label>
+    <input type="text" id="zip"><p id="zipWarn" class="warning"></p>
+
+    <button onclick="validateInputs()">Submit</button>
+    <div id="message" style="display:none;">Secret: <span id="secret"></span></div>
+    <p>
+        <img id="memeImage" src="meme.jpg">
+    </p>
+    
+</body>
+</html>
